@@ -10,7 +10,7 @@ const Home = () => {
     const { user, setUser } = useContext(UserContext);
     const [room, setRoom] = useState('');
     const [rooms, setRooms] = useState([]);
-    const ENDPT = 'https://chat-back-tertuapp.herokuapp.com/';
+    const ENDPT = 'https://chatroom-mp2-back-production.up.railway.app/';
 
     useEffect(() => {
         socket = io(ENDPT);

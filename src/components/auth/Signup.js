@@ -18,7 +18,7 @@ const Signup = () => {
         setPasswordError('');
         console.log(name, email, password)
         try {
-            const res = await fetch('https://chat-back-tertuapp.herokuapp.com/signup', {
+            const res = await fetch('https://chatroom-mp2-back-production.up.railway.app/signup', {
                 method: 'POST',
                 credentials: 'include',
                 body: JSON.stringify({ name, email, password }),

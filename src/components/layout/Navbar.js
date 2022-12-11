@@ -8,7 +8,7 @@ const Navbar = () => {
 
     const logout = async () => {
         try {
-            const res = await fetch('https://chat-back-tertuapp.herokuapp.com/logout', {
+            const res = await fetch('https://chatroom-mp2-back-production.up.railway.app/logout', {
                 credentials: 'include',
             });
             const data = res.json();

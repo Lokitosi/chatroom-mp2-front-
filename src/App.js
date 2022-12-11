@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const verifyUser = async () => {
       try {
-        const res = await fetch('https://chat-back-tertuapp.herokuapp.com/verifyuser', {
+        const res = await fetch('https://chatroom-mp2-back-production.up.railway.app/verifyuser', {
           credentials: 'include',
           headers: { 'Content-Type': 'application/json' }
         });

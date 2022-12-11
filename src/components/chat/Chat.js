@@ -8,7 +8,7 @@ import './Chat.css'
 let socket;
 
 const Chat = () => {
-    const ENDPT = 'https://chat-back-tertuapp.herokuapp.com/';
+    const ENDPT = 'https://chatroom-mp2-back-production.up.railway.app/';
 
     const { user, setUser } = useContext(UserContext);
     let { room_id, room_name } = useParams();
